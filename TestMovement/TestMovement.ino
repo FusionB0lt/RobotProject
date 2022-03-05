@@ -1,4 +1,3 @@
-
 const int IN1 = 11;
 const int IN2 = 10;
 const int IN3 = 5;
@@ -19,9 +18,9 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //digitalWrite(IN4, HIGH);
-  //digitalWrite(IN1, HIGH);
-  //delay(12000);
+  digitalWrite(IN4, HIGH);
+  digitalWrite(IN1, HIGH);
+  delay(12000);
   digitalWrite(IN1, LOW);
   digitalWrite(IN4, LOW);
   digitalWrite(IN2, HIGH);
